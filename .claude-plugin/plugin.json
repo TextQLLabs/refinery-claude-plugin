@@ -1,0 +1,24 @@
+{
+  "name": "refinery",
+  "displayName": "TextQL",
+  "version": "0.1.3",
+  "description": "Query your company data through TextQL: discover connectors and tables, run SQL or governed TQL into a remote Python sandbox, and analyze the results there. Sign in once with your TextQL account to work across every organization you belong to, with your existing permissions.",
+  "author": {
+    "name": "TextQL",
+    "email": "support@textql.com",
+    "url": "https://textql.com"
+  },
+  "homepage": "https://textql.com",
+  "license": "UNLICENSED",
+  "keywords": [
+    "textql",
+    "data",
+    "sql",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/textql.png",
+  "documentationUrl": "https://docs.textql.com",
+  "privacyPolicyUrl": "https://textql.com/privacy",
+  "termsOfServiceUrl": "https://textql.com/terms"
+}

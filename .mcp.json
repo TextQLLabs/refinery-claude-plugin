@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "refinery": {
+      "type": "http",
+      "url": "https://${REFINERY_HOST:-app.textql.com}/refinery-mcp"
+    }
+  }
+}
