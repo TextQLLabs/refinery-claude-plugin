@@ -19,6 +19,7 @@
   ],
   "icon": "./assets/textql.png",
   "documentationUrl": "https://docs.textql.com",
+  "supportUrl": "https://docs.textql.com/core/get-started/customer-support",
   "privacyPolicyUrl": "https://textql.com/privacy",
   "termsOfServiceUrl": "https://textql.com/terms"
 }
