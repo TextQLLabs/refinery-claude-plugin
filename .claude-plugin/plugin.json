@@ -9,6 +9,7 @@
     "url": "https://textql.com"
   },
   "homepage": "https://textql.com",
+  "repository": "https://github.com/TextQLLabs/refinery-claude-plugin",
   "license": "UNLICENSED",
   "keywords": [
     "textql",
