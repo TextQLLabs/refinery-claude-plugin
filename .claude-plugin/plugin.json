@@ -1,8 +1,8 @@
 {
   "name": "refinery",
   "displayName": "TextQL",
-  "version": "0.1.3",
-  "description": "Query your company data through TextQL: discover connectors and tables, run SQL or governed TQL into a remote Python sandbox, and analyze the results there. Sign in once with your TextQL account to work across every organization you belong to, with your existing permissions.",
+  "version": "1.4.0",
+  "description": "Connect Claude to all your data, from cloud warehouses and on-prem databases to business applications and BI platforms. Analyze across all of them at petabyte scale, with answers grounded in TextQL's ontology and access governed by your existing permissions.",
   "author": {
     "name": "TextQL",
     "email": "support@textql.com",
