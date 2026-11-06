@@ -191,9 +191,7 @@ the user its URL.
 
 ## The escape hatch: `refinery_rpc_search` and `refinery_rpc_call`
 
-Use these only when no tool above does the job. The ChatGPT connector does not
-list them; there, anything below that needs them, data app writes included, is
-done in the TextQL app instead, so tell the user that rather than attempting it. Always search first with a
+Use these only when no tool above does the job. Always search first with a
 few keywords (`query: "ontology upsert"`), then call the exact `target` it
 returned with a proto-JSON `body` (camelCase field names). Writes through
 `refinery_rpc_call` are real and immediate: confirm destructive or org-visible
