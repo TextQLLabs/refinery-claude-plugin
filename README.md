@@ -19,23 +19,21 @@ results small.
 
 ## Pointing it at your deployment
 
-Every deployment has its own host, so `.mcp.json` reads it from an environment
-variable with the TextQL cloud host as the default:
+The plugin directory only accepts a fixed, public MCP URL (no `${...}`
+variables), so `.mcp.json` points at TextQL cloud:
 
 ```json
-"url": "https://${REFINERY_HOST:-app.textql.com}/refinery-mcp"
+"url": "https://app.textql.com/refinery-mcp"
 ```
 
-TextQL cloud users set nothing. Everyone else exports the host name of their
-deployment (no scheme, no path) before launching Claude Code:
+TextQL cloud users need nothing else. Users of another deployment have two
+options:
 
-```sh
-export REFINERY_HOST=textql.example.com
-claude
-```
-
-The variable is read when Claude Code starts, so restart it after changing the
-value.
+- Build a zip pinned to their host and upload it:
+  `integrations/refinery-mcp/claude-plugin/build.sh textql.example.com` (in
+  the demo2 repo).
+- Add the server directly:
+  `claude mcp add --transport http refinery-mcp https://textql.example.com/refinery-mcp`.
 
 ## Branding
 
