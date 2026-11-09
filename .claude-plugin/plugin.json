@@ -1,7 +1,7 @@
 {
   "name": "refinery",
   "displayName": "TextQL",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Connect Claude to your data through TextQL: cloud warehouses, databases, business applications and BI platforms. Query and analyze across them, with answers grounded in TextQL's ontology and access governed by your existing permissions.",
   "author": {
     "name": "TextQL",
